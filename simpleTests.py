@@ -1,7 +1,7 @@
 
 
 #Test subtraction
-from calculator.py import sub
+from calculator import sub
 result = sub(3, 2)
 if (result == 1):
     print("Subtraction test passed!")
